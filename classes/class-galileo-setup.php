@@ -91,7 +91,7 @@ class GalileoSetup {
 
 	public function enableDev() {
 		// Add options as you like
-		add_filter( 'show_admin_bar', '__return_false' );
+		add_filter( 'show_admin_bar', '__return_true' );
 	}
 
 	public function enableWoocommerce() {
